@@ -1,6 +1,5 @@
 #!/bin/bash
 
-##Script written by Wesley and Jarvis##
 # Define directories and log file
 DIRECTORY="/home/"  # Input directory containing the document scans.
 OUTPUT_DIRECTORY="/home/"  # Directory to store the converted Markdown files.
