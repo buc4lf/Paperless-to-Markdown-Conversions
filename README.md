@@ -1,6 +1,6 @@
 # Paperless to Markdown Conversion Script
 
-I use paperless for archiving all school newsletters and important mail that comes in my house.  This script is designed for use with document processing pipelines, particularly for preparing documents for use with AI models or for archiving in a text-based format.
+I use [Paperless](https://github.com/paperless-ngx/paperless-ngx) for archiving all school newsletters and important mail that comes in my house.  This script is designed for use with document processing pipelines, particularly for preparing documents for use with AI models or for archiving in a text-based format.
 
 ## Prerequisites
 I'm using [Marker](https://github.com/VikParuchuri/marker) for the conversion process.  You will need to follow their documented installation instructions first -
