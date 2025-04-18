@@ -30,4 +30,4 @@ No specific installation is required for the script itself.  Simply download the
 2. **Run the Script:** Execute the script from your terminal:
 
    ```bash
-   ./convert.sh
+   ./paperless-markdown-conversion.sh
