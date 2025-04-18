@@ -26,7 +26,7 @@ for FILE in "$DIRECTORY"/*; do
 
   # Run marker_single for the file
   OUTPUT_FILE="$OUTPUT_DIRECTORY/$FILENAME"
-  sudo marker_single "$FILE" --output_dir "$OUTPUT_FILE" 2>&1 | tee -a "$LOGFILE"
+  marker_single "$FILE" --output_dir "$OUTPUT_FILE" 2>&1 | tee -a "$LOGFILE"
 
   # Mark file as processed
   echo "$FILENAME" >> "$PROCESSED_LIST"
