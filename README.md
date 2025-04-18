@@ -23,7 +23,7 @@ No specific installation is required for the script itself.  Simply download the
 ## Usage
 
 1. **Configure Variables:** Edit the script to set the following variables to your desired values:
-   * 'DIRECTORY': Input directory containing the document scans.
+   * `DIRECTORY`: Input directory containing the document scans.
    * `OUTPUT_DIRECTORY`: Path to the directory where the converted Markdown files will be saved.
    * `LOGFILE`:  Path to the log file.
    * `PROCESSED_LIST`: Path to the file used to track processed files.
