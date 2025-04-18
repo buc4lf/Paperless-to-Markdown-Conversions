@@ -17,7 +17,7 @@ If you want to use marker on documents other than PDFs, you will need to install
 pip install marker-pdf[full]
 ```
 
-No specific installation is required for the script itself.  Simply download the `convert.sh` file (or whatever you named it).
+No specific installation is required for the script itself.  Simply download the `paperless-markdown-conversion.sh` file.
 
 
 ## Usage
