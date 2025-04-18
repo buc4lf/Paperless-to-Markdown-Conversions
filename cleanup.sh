@@ -5,7 +5,7 @@
 ## the images, which Onyx can't use, and moving all files up to one central folder
 ## so Onyx does not have to look through a complex folder tree for the files.
 
-TARGET_DIR="/home/wesley/docker/onyx/paperless-docs-for-onyx/paperless-markdowns-done" #Should probably match the OUTPUT_DIRECTORY in paperless-markdown-conversion.sh
+TARGET_DIR="/home" #Should probably match the OUTPUT_DIRECTORY in paperless-markdown-conversion.sh
 
 # Step 1: Remove all image files in TARGET_DIR and subdirectories
 find "$TARGET_DIR" -type f \( -iname "*.png" -o -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.gif" -o -iname "*.bmp" -o -iname "*.svg" \) -exec rm -v {} \;
